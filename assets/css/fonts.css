@@ -151,6 +151,30 @@
 }
 
 @font-face {
+  font-family: Redaction_70;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_70-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_70-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_70;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_70-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_70-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_70;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_70-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_70-Bold.woff") format("woff");
+}
+
+@font-face {
   font-family: Redaction_100;
   font-style: normal;
   font-weight: 400;

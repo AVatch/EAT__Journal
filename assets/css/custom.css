@@ -11,10 +11,18 @@ body {
 
 /* ------------------------------------ */
 
+.gh-signup .gh-subscribe-input {
+  border-radius: 2px;
+}
+
+/* ------------------------------------ */
+
 .gh-head-logo:hover,
 .gh-card-title:hover,
-.gh-article-title:hover {
-  font-family: Redaction_100;
+.gh-article-title:hover,
+.kg-header-card-header:hover,
+.nav > li > a:hover {
+  font-family: Redaction_70;
 }
 
 /* ------------------------------------ */
