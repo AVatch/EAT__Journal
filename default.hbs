@@ -50,28 +50,48 @@
 
         {{{body}}}
 
-        {{#if @site.members_enabled}}
-        {{#unless @member}}
-            <div class="gh-subscribe">
-                <div class="gh-outer">
-                    <section class="gh-subscribe-inner">
-                        <h3 class="gh-subscribe-title">Subscribe to {{@site.title}}</h3>
-                        <div class="gh-subscribe-description">Don’t miss out on the latest issues. Sign up now to get access to the library of members-only issues.</div>
-                        <a class="gh-subscribe-input" href="#/portal/signup" data-portal="signup">
-                            <div class="gh-subscribe-input-text">
-                                {{> icons/email}}
-                                jamie@example.com
-                            </div>
-                            <div class="gh-subscribe-input-btn">Subscribe</div>
-                        </a>
-                    </section>
-                </div>
-            </div>
-        {{/unless}}
-        {{/if}}
+        <div class="community">
+            <div class="gh-outer">
+                <section>
+                    <h2 class="gh-card-title">Join our Community</h2>
+                    <ul>
+                        <li>
+                            <a href="https://discord.gg/2kShKXrgUJ" target="_blank">
+                                Discord
+                                <span class="gh-navigation-label">{{> icons/arrow-right}}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/eatworksnyc" target="_blank">
+                                Twitter
+                                <span class="gh-navigation-label">{{> icons/arrow-right}}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://yourholderpass.xyz/pass/rRINR78ZI3eqmJwdkygU" target="_blank">
+                                HolderPass
+                                <span class="gh-navigation-label">{{> icons/arrow-right}}</span>
+                            </a>
+                        </li>
+                    </ul>
 
+                </section>
+            </div>
+        </div>
+        
         <footer class="gh-foot gh-outer">
             <div class="gh-foot-inner gh-inner">
+
+                <div class="gh-head-brand-wrapper">
+                    <a class="gh-head-logo" href="{{@site.url}}">
+                        {{#if @site.logo}}
+                            <img src="{{@site.logo}}" alt="{{@site.title}}">
+                        {{else}}
+                            {{@site.title}}
+                        {{/if}}
+                    </a>
+                </div>
+
                 <div class="gh-copyright">
                     {{@site.title}} © {{date format="YYYY"}}
                 </div>

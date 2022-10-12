@@ -3,9 +3,61 @@ body {
   --font-serif: Redaction;
 }
 
+/* ------------------------------------ */
+
 article.gh-latest.gh-card a.gh-btn {
   margin: 32px 0;
 }
+
+/* ------------------------------------ */
+
+.community {
+  background: #fbfbfb;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 0;
+}
+
+.community section h2 {
+}
+
+.community section ul {
+  list-style: none;
+  padding: 0 0;
+}
+
+.community section ul li {
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.community section ul li a {
+  width: 100%;
+  display: flex;
+  padding: 32px 0 8px 0;
+  justify-content: space-between;
+}
+
+/* ------------------------------------ */
+
+.gh-foot.gh-outer {
+  background: var(--color-black);
+}
+
+.gh-foot.gh-outer .gh-foot-inner {
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gh-foot a:hover {
+  color: var(--color-white);
+}
+
+.gh-foot.gh-outer .gh-foot-inner.gh-inner .gh-head-brand-wrapper {
+}
+
+/* ------------------------------------ */
 
 ul.card-list {
   align-items: flex-start;
