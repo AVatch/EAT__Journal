@@ -5,6 +5,20 @@ body {
 
 /* ------------------------------------ */
 
+.gh-btn {
+  border-radius: 2px;
+}
+
+/* ------------------------------------ */
+
+.gh-head-logo:hover,
+.gh-card-title:hover,
+.gh-article-title:hover {
+  font-family: Redaction_100;
+}
+
+/* ------------------------------------ */
+
 article.gh-latest.gh-card a.gh-btn {
   margin: 32px 0;
 }
@@ -65,53 +79,50 @@ ul.card-list {
   flex-wrap: nowrap;
   list-style: none;
   margin: 32px 0;
-  padding: 0 0;
-  overflow-x: scroll;
-  padding: 0 0 0 1rem;
+  padding: 0 12px 18px 12px;
 
   grid-column: full-start/full-end;
+
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 12px;
 }
 
 ul.card-list > li {
   padding: 0 12px 0 0;
   margin: 0 0;
+
+  scroll-snap-align: start;
 }
 
 ul.card-list > li > div.card {
   background-color: #fbfbfb;
   border-radius: 0px;
   width: 33vw;
-  height: 256px;
+  height: 384px;
   overflow: hidden;
 
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 767px) {
-  ul.card-list > li > div.card {
-    width: 50vw;
-    height: 320px;
-  }
-}
-
 ul.card-list > li > div.card > img {
   width: 100%;
+  height: 64%;
   object-fit: cover;
 }
 
-ul.card-list > li > div.card > div.content {
-}
-
-ul.card-list > li > div.card > div.content > h3 {
+ul.card-list > li > div.card > h3 {
   margin: 8px 4px 4px 4px;
-  font-size: 16px;
+  font-size: 24px;
+
+  flex: 1;
 }
 
 ul.card-list > li > div.card > div.content > p,
 ul.card-list > li > div.card > div.content > a {
   margin: 4px 8px;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 ul.card-list > li > div.card > div.content > p {
@@ -120,4 +131,21 @@ ul.card-list > li > div.card > div.content > p {
 
 ul.card-list > li > div.card > div.content > a {
   float: right;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  ul.card-list > li > div.card {
+    width: 50vw;
+    height: 320px;
+  }
+
+  ul.card-list > li > div.card > h3 {
+    font-size: 18px;
+  }
+
+  ul.card-list > li > div.card > div.content > p,
+  ul.card-list > li > div.card > div.content > a {
+    font-size: 12px;
+  }
 }

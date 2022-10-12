@@ -101,3 +101,75 @@
   src: local(""), url("../fonts/Redaction-Bold.woff2") format("woff2"),
     url("../fonts/Redaction-Bold.woff") format("woff");
 }
+
+@font-face {
+  font-family: Redaction_10;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_10-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_10-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_10;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_10-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_10-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_10;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_10-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_10-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_50;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_50-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_50-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_50;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_50-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_50-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_50;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_50-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_50-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_100;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_100-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_100-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_100;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_100-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_100-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_100;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_100-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_100-Bold.woff") format("woff");
+}
