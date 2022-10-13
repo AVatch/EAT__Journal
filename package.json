@@ -40,7 +40,12 @@
             }
         },
         "card_assets": true,
-        "custom": {}
+        "custom": {
+            "hero_text": {
+                "type": "text",
+                "default": "Edit this"
+            }
+        }
     },
     "scripts": {
         "dev": "gulp",
