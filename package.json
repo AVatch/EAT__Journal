@@ -41,9 +41,13 @@
         },
         "card_assets": true,
         "custom": {
-            "hero_text": {
+            "hero_title": {
                 "type": "text",
                 "default": "Edit this"
+            },
+            "hero_text": {
+                "type": "text",
+                "default": "Edit this as well"
             }
         }
     },

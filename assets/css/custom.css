@@ -44,6 +44,13 @@ body {
 
 /* ------------------------------------ */
 
+article.gh-latest.gh-card p {
+  font-size: 2.8rem;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+  margin-top: 1.2rem;
+}
+
 article.gh-latest.gh-card a.gh-btn {
   margin: 32px 0;
 }
