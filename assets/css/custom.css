@@ -3,6 +3,11 @@ body {
   --font-serif: Redaction;
 }
 
+.gh-head-brand .gh-head-logo,
+.gh-copyright {
+  font-family: Inter;
+}
+
 /* ------------------------------------ */
 
 .gh-btn {
@@ -17,7 +22,19 @@ body {
 
 /* ------------------------------------ */
 
-.gh-head-logo:hover,
+.gh-article-title {
+  font-size: 6.8rem;
+}
+
+/* ------------------------------------ */
+
+.gh-card-title,
+.gh-article-title,
+.kg-header-card-header,
+.nav > li > a {
+  font-family: Redaction_20;
+}
+
 .gh-card-title:hover,
 .gh-article-title:hover,
 .kg-header-card-header:hover,
@@ -81,6 +98,22 @@ article.gh-latest.gh-card a.gh-btn {
 
 /* ------------------------------------ */
 
+section.tag-page-heading {
+  margin: 0 0 32px 0;
+}
+
+section.tag-page-heading .gh-card {
+  margin: 16px 0 32px 0;
+}
+
+section.tag-page-heading .gh-card header h1 {
+  font-size: 7.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ------------------------------------ */
+
 ul.card-list {
   align-items: flex-start;
   display: flex;
@@ -130,7 +163,9 @@ ul.card-list > li > div.card > h3 {
 ul.card-list > li > div.card > div.content > p,
 ul.card-list > li > div.card > div.content > a {
   margin: 4px 8px;
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 ul.card-list > li > div.card > div.content > p {

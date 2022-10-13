@@ -127,6 +127,54 @@
 }
 
 @font-face {
+  font-family: Redaction_20;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_20-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_20-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_20;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_20-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_20-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_20;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_20-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_20-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_35;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_35-Regular.woff2") format("woff2"),
+    url("../fonts/Redaction_35-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_35;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/Redaction_35-Italic.woff2") format("woff2"),
+    url("../fonts/Redaction_35-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Redaction_35;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Redaction_35-Bold.woff2") format("woff2"),
+    url("../fonts/Redaction_35-Bold.woff") format("woff");
+}
+
+@font-face {
   font-family: Redaction_50;
   font-style: normal;
   font-weight: 400;
