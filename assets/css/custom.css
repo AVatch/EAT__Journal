@@ -28,7 +28,7 @@ body {
 
 @media (max-width: 767px) {
   .gh-article-title {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
   article.gh-latest.gh-card p {
     font-size: 2.4rem !important;
